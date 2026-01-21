@@ -1,22 +1,22 @@
 {
-  "name": "alura-cases-divulgacao",
+  "name": "Next.JsExplorandoFramework-Alura",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/GuilFranca/Next.JsExplorandoFramework-Alura.git",
   "author": "Guilherme França <guilfranca27@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^7.1.0",
-    "@fortawesome/free-solid-svg-icons": "^7.1.0",
-    "@fortawesome/react-fontawesome": "^3.1.1",
-    "next": "^16.1.3",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
   }
 }
