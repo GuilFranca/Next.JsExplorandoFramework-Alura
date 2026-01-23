@@ -7,8 +7,8 @@ import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 // const SIDE_IMAGE_URL = 'https://fakeimg.pl/2878x1640'
 
 // A pasta public vira a raiz do projeto
-const LOGO_ALURA_URL = '/images/alura-logo.svg';
-const SIDE_IMAGE_URL = '/images/alura-cases.png';
+const LOGO_ALURA_URL = 'assets/images/alura-logo.svg';
+const SIDE_IMAGE_URL = 'assets/images/alura-cases.png';
 
 
 function SideImage() {
