@@ -1,9 +1,10 @@
+import Head from 'next/head';
 import Link from "next/link";
 
-export async function getServerSideProps() {
+// export async function getServerSideProps() {
 // Reccarrega toda vez que a página é renderizada
 
-// export async function getStaticProps() {
+export async function getStaticProps() {
     // Recarrega somente no build quando utilizamos o comando yarn export, mas recarrega toda vez que a página rederiza quando estamos no yarn dev
 
     console.log('Função de fetch carregada🚀');
@@ -29,6 +30,9 @@ export async function getServerSideProps() {
 export default function FAQPage({ faq }) {
     return (
         <div>
+            <Head>
+                <title>FAQ - Alura Cases Campanha</title>
+            </Head>
             <h1>Alura Cases - Página de Perguntas FAQ</h1>
             <Link href="/" passHref>Ir para o Home</Link>
             <ul>
